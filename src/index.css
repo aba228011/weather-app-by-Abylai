@@ -1,13 +1,64 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.heading{
+  margin: 20px 0;
+  line-height: 10px;
+  text-align: center;
+}
+.main{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#filled-search{
+  min-width: 200px;
+  color: black;
+}
+.refreshLocation{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.forecastWeather{
+  margin-top: 20px;
+}
+.partOfDescr{
+  display: flex;
+  justify-content: space-between;
+}
+.lastDescr{
+  display: flex;
+  flex-direction: row;
+}
+.lastDescr img{
+  margin-top: -8px;
+  max-height: 40px;
+  max-width: 50px;
+}
+@media (max-width: 500px) {
+  .main{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #filled-search{
+    min-width: 100px;
+    color: black;
+  }
+
+}
+@media (max-width: 350px) {
+  #filled-search{
+    min-width: 40px;
+    min-height: 10px;
+    color: black;
+  }
 }
