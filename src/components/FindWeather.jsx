@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-import {AppBar, Button, Container, TextField} from "@material-ui/core";
+import {AppBar, Button, Card, CardContent, Container, TextField} from "@material-ui/core";
 import RefreshIcon from "@material-ui/icons/Refresh";
 import SearchIcon from '@material-ui/icons/Search';
 import InformationAboutWeather from "./InformationAboutWeather";
@@ -93,10 +93,15 @@ const FindWeather = () => {
                     </Button>
                 </div>
             </section>
-            {(typeof forecast.main != 'undefined') ? (<InformationAboutWeather forecast = {forecast} />)
+
+            <Card>
+                <CardContent>
+            {(typeof forecast.main !== 'undefined') ? (<InformationAboutWeather forecast = {forecast} />)
                 : (
                     <div className={"forecastWeather"}>Loading...</div>
                 )}
+                </CardContent>
+            </Card>
         </Container>
     );
 };
