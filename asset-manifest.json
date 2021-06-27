@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/weather-app-by-Abylai/static/css/main.98a09b0a.chunk.css",
+    "main.js": "/weather-app-by-Abylai/static/js/main.60fa9114.chunk.js",
+    "main.js.map": "/weather-app-by-Abylai/static/js/main.60fa9114.chunk.js.map",
+    "runtime-main.js": "/weather-app-by-Abylai/static/js/runtime-main.c70c4092.js",
+    "runtime-main.js.map": "/weather-app-by-Abylai/static/js/runtime-main.c70c4092.js.map",
+    "static/js/2.a67e1f77.chunk.js": "/weather-app-by-Abylai/static/js/2.a67e1f77.chunk.js",
+    "static/js/2.a67e1f77.chunk.js.map": "/weather-app-by-Abylai/static/js/2.a67e1f77.chunk.js.map",
+    "static/js/3.04928cb2.chunk.js": "/weather-app-by-Abylai/static/js/3.04928cb2.chunk.js",
+    "static/js/3.04928cb2.chunk.js.map": "/weather-app-by-Abylai/static/js/3.04928cb2.chunk.js.map",
+    "index.html": "/weather-app-by-Abylai/index.html",
+    "static/css/main.98a09b0a.chunk.css.map": "/weather-app-by-Abylai/static/css/main.98a09b0a.chunk.css.map",
+    "static/js/2.a67e1f77.chunk.js.LICENSE.txt": "/weather-app-by-Abylai/static/js/2.a67e1f77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c70c4092.js",
+    "static/js/2.a67e1f77.chunk.js",
+    "static/css/main.98a09b0a.chunk.css",
+    "static/js/main.60fa9114.chunk.js"
+  ]
+}
